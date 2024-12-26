@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.ota{
+    display: flex;
+    justify-content: space-between;
+}
+.bola{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border: 2px solid black;
+}
+@media(max-width:1800px){
+    body{
+        background-color: yellow;
+    }
+    .ota{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    .bola{
+        width: 500px;
+        background-color: blue;
+    }
+}
+@media(max-width:1540px){
+    body{
+        background-color: red;
+    }
+    .ota{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    .bola{
+        width: 480px;
+        background-color: black;
+    }
+}
+@media(max-width:1480px){
+    body{
+        background-color: yellow;
+    }
+    .ota{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    .bola{
+        width: 360px;
+        background-color: blue;
+    }
+}
+@media(max-width:1120px){
+    body{
+        background-color: blueviolet;
+    }
+    .ota{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    .bola{
+        width: 360px;
+        background-color: coral;
+    }
+}
+@media(max-width:740px){
+    body{
+        background-color: blueviolet;
+    }
+    .ota{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    .bola{
+        width: 360px;
+        background-color: coral;
+    }
+}
